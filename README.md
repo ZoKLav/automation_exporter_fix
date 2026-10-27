@@ -19,7 +19,7 @@ The candidate changes two branches:
 
 Materials without an individual opacity pointer retain the existing stamp-selection path. The patch preserves section layout, imports, exports, instruction lengths, and branch destination addresses. Four instruction bytes change, plus the checksum and certificate metadata; the trailing certificate is removed.
 
-This is a precedence workaround. It does not combine intrinsic opacity with a projected stamp. A fixture that intentionally needs both masks could lose its stamped cutout, which is why this broader exporter patch needs regression testing. The car-only correction affects only the two confirmed grille materials.
+This is a precedence workaround. It does not combine intrinsic opacity with a projected stamp. A fixture that intentionally needs both masks could lose its stamped cutout, which is why this broader exporter patch needs regression testing.
 
 `patch_plugin.py` reproduces the DLL patch, checks the exact original hash, and refuses to overwrite an output file.
 
