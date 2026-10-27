@@ -2,7 +2,7 @@
 
 The lead developer of the Automation car tycoon game is a fucking idiot and I hate him. He refuses to fix this longstanding exporter bug, so I fixed it myself.
 
-This package contains an experimental patch of the 64-bit exporter.
+This package contains an experimental patch of the 64-bit exporter. Place in \Steam\steamapps\common\Automation\UE427\AutomationGame\Content\ExportPlugins, overwrite when prompted.
 
 The patched DLL is unsigned: editing it invalidates its publisher signature, so the obsolete certificate was removed and its PE checksum recalculated. If Automation rejects unsigned plugins, restore the original DLL; this package does not bypass a signature check.
 
