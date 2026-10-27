@@ -25,7 +25,7 @@ This is a precedence workaround. It does not combine intrinsic opacity with a pr
 
 ## Bugs
 
-This will throw a sound export warning, you can ignore it, it only happens because the DLL is unsigned. Sound will not be exported, so make sure you extract sound from existing vehicle mods and repack it once the new exporter is used.
+This will throw a sound export warning because the DLL is unsigned. Sound will not be exported. Before using this fix, export the cars you want as UNPACKED, and then after you install the fix, continue to install them unpacked. You can manually pack them with 7Zip. PLEASE STOP USING WINRAR. Winrar is UNSAFE and 7Zip is better in every way.
 
 ## Virustotal
 
