@@ -25,7 +25,7 @@ This is a precedence workaround. It does not combine intrinsic opacity with a pr
 
 ## Bugs
 
-This will throw a sound export warning, you can ignore it, it only happens because the DLL is unsigned.
+This will throw a sound export warning, you can ignore it, it only happens because the DLL is unsigned. Sound will not be exported, so make sure you extract sound from existing vehicle mods and repack it once the new exporter is used.
 
 ## Virustotal
 
